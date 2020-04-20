@@ -29,7 +29,7 @@
                 振り返るそこで笑ってみせて。
             </p>
         </aside>
-        <p class="tip">现在总共说了 {{count}} 句废话</p>
+        <p class="tip">这里有 {{count}} 句碎碎念。</p>
         <section class="item" v-for="item in contents" v-cloak>
             <p v-html='item.attributes.content'></p>
             <time v-bind:datetime="item.attributes.time">{{item.attributes.time}}</time>
